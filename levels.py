@@ -1,11 +1,6 @@
-import random
 from MccDB import dataBase
 import discord
-import time
-
 from imger.image import download_image, level_imger
-
-
 
 async def addExp(member,channel,user):
     await dataBase.add(member,"exp",1)
