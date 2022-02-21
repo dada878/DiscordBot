@@ -1,6 +1,5 @@
 from MccDB import dataBase
 import discord
-import botFunctions
 import levels
 from commands import CommandSystem,runCommand
 
@@ -23,4 +22,4 @@ async def on_message(message):
         await levels.addExp(message.author.id,message.channel,message.author)
 
 
-client.run("OTQxNzE0OTU3NTY3OTQyNzM2.YgZ-Zg._z91Kj-XTpmT0UhxogS59TBISl4")
+client.run("token") #請填入自己的token
